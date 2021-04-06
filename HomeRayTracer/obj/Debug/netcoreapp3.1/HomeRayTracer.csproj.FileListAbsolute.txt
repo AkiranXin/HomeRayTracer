@@ -1,0 +1,15 @@
+D:\c#\HomeRayTracer\HomeRayTracer\bin\Debug\netcoreapp3.1\HomeRayTracer.exe
+D:\c#\HomeRayTracer\HomeRayTracer\bin\Debug\netcoreapp3.1\HomeRayTracer.deps.json
+D:\c#\HomeRayTracer\HomeRayTracer\bin\Debug\netcoreapp3.1\HomeRayTracer.runtimeconfig.json
+D:\c#\HomeRayTracer\HomeRayTracer\bin\Debug\netcoreapp3.1\HomeRayTracer.runtimeconfig.dev.json
+D:\c#\HomeRayTracer\HomeRayTracer\bin\Debug\netcoreapp3.1\HomeRayTracer.dll
+D:\c#\HomeRayTracer\HomeRayTracer\bin\Debug\netcoreapp3.1\HomeRayTracer.pdb
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.csprojAssemblyReference.cache
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.Form1.resources
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.csproj.GenerateResource.cache
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.AssemblyInfoInputs.cache
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.AssemblyInfo.cs
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.csproj.CoreCompileInputs.cache
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.dll
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.pdb
+D:\c#\HomeRayTracer\HomeRayTracer\obj\Debug\netcoreapp3.1\HomeRayTracer.genruntimeconfig.cache
