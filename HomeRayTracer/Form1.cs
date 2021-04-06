@@ -34,7 +34,7 @@ namespace HomeRayTracer
             list.Add(new Sphere(new Point3D(1, 0, -1), 0.5, new Metal(new Vector3(0.8, 0.6, 0.2),0.3)));
             list.Add(new Sphere(new Point3D(-1, 0, -1), 0.5, new Dielectrics(1.5)));
             HitableList world = new HitableList(list, 4);
-            Camera cam = new Camera();
+            Camera cam = new Camera(new Point3D(-2,-2,1), new Point3D(0,0,-1), new Vector3(0,0,1), 90, (double)(nx)/(double)(ny) );
 
             for (int i = 0; i < nx; i++)
             {
