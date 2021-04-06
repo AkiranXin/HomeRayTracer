@@ -6,7 +6,7 @@ namespace HomeRayTracer
 {
     class RTUtils
     {
-        private static Random rd = new Random();
+        public static Random rd = new Random();
         public static Vector3 RandomInUnitSphere()
         {
             Vector3 p = new Vector3();
@@ -16,6 +16,29 @@ namespace HomeRayTracer
             } while (p.SquaredLength() >= 1.0);
 
             return p;
+        }
+
+        public  static double Schlick(double cosine, double refIdx)
+        {
+            double r0 = (1 - refIdx) / (1 + refIdx);
+            r0 = r0 * r0;
+            return r0 + (1 - r0) * Math.Pow((1 - cosine), 5);
+        }
+
+        public static bool Refract(Vector3 v, Vector3 n, double niOverNt, ref Vector3 refracted)
+        {
+            Vector3 uv = Vector3.UnitVector(v);
+            double dt = Vector3.DotProduct(uv, n);
+            double discriminant = 1.0 - niOverNt * niOverNt * (1 - dt * dt);
+            if(discriminant > 0)
+            {
+                refracted = niOverNt * (uv - n * dt) - n * Math.Sqrt(discriminant);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public static Vector3 Reflect(Vector3 v, Vector3 n)

@@ -32,7 +32,7 @@ namespace HomeRayTracer
             list.Add(new Sphere(new Point3D(0, 0, -1), 0.5, new Lambertian(new Vector3(0.8, 0.3, 0.3))));
             list.Add(new Sphere(new Point3D(0, -100.5, -1), 100, new Lambertian(new Vector3(0.8,0.8,0.0))));
             list.Add(new Sphere(new Point3D(1, 0, -1), 0.5, new Metal(new Vector3(0.8, 0.6, 0.2),0.3)));
-            list.Add(new Sphere(new Point3D(-1, 0, -1), 0.5, new Metal(new Vector3(0.8, 0.8, 0.8),1)));
+            list.Add(new Sphere(new Point3D(-1, 0, -1), 0.5, new Dielectrics(1.5)));
             HitableList world = new HitableList(list, 4);
             Camera cam = new Camera();
 
